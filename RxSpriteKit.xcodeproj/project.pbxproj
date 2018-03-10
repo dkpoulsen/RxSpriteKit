@@ -869,7 +869,6 @@
 				0779CA382006407E001A1FE1 /* Frameworks */,
 				0779CA392006407E001A1FE1 /* Headers */,
 				0779CA3A2006407E001A1FE1 /* Resources */,
-				074A7164200A43440087739C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -888,7 +887,6 @@
 				0779CA4A20064098001A1FE1 /* Frameworks */,
 				0779CA4B20064098001A1FE1 /* Headers */,
 				0779CA4C20064098001A1FE1 /* Resources */,
-				074A7166200A443E0087739C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -983,7 +981,6 @@
 				077B6C242028A10500BAD644 /* Frameworks */,
 				077B6C252028A10500BAD644 /* Headers */,
 				077B6C262028A10500BAD644 /* Resources */,
-				077B6C4E2028A17100BAD644 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -1041,7 +1038,6 @@
 				07DA8610202894C900DF391F /* Frameworks */,
 				07DA8611202894C900DF391F /* Headers */,
 				07DA8612202894C900DF391F /* Resources */,
-				077B6BC22028967B00BAD644 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -1263,42 +1259,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		074A7164200A43440087739C /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		074A7166200A443E0087739C /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/Mac/RxCocoa.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		074A7172200A46160087739C /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1375,24 +1335,6 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		077B6BC22028967B00BAD644 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/tvOS/RxCocoa.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 		077B6BD92028989E00BAD644 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1421,24 +1363,6 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/tvOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/tvOS/RxCocoa.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		077B6C4E2028A17100BAD644 /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/watchOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/watchOS/RxCocoa.framework",
 			);
 			name = Carthage;
 			outputPaths = (
